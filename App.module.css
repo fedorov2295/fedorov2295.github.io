@@ -1,0 +1,43 @@
+.App {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.tableHead {
+  background-color: burlywood;
+}
+
+.tableHead th {
+  border: 2px solid black;
+}
+
+.data,
+.data td {
+  border: 1px solid black;
+  height: 25px;
+}
+
+.data input{
+  width: 95%;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.rowNumber{
+  width: 25px;
+}
+.rowAction{
+  width: 150px;
+}
+
+tr {
+  height: 25px;
+}
